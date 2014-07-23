@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8">
+	<title>How I built my blog in one day</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A Bootstrap Blog Template">
+	<meta name="author" content="Robin James Kerrison">
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap CSS file -->
+	<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
+	<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<!-- Jquery and Bootstrap Script files -->
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">         
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://rjkerrison.co.uk" class="navbar-brand">Robin James Kerrison</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">  
+            <ul class="nav navbar-nav">
+                <li><a href="http://rjkerrison.co.uk">Home</a></li>
+                <li><a href="http://rjkerrison.co.uk/contact">Contact</a></li>
+                <li><a href="http://rjkerrison.co.uk/about">About</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <label class="sr-only">Search</label>
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+            </form>
+        </nav>
+    </div>
+</header>
+
+<div id="body" class="container"> 
+	<div class="row">
+		<div class="col-md-8 text-justify">
+		<div class="content">    
+	<div class="row">
+	<div class="col-md-8">
+		<h1>How I built my blog in one day</h1>
+		<div class="btn-group">
+			
+				<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/blog"
+					title="View posts tagged with &quot;blog&quot;">
+					blog
+				</a>
+			
+				<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/jekyll"
+					title="View posts tagged with &quot;jekyll&quot;">
+					jekyll
+				</a>
+			
+				<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/github"
+					title="View posts tagged with &quot;github&quot;">
+					github
+				</a>
+			
+				<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/media"
+					title="View posts tagged with &quot;media&quot;">
+					media
+				</a>
+			
+				<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/ruby"
+					title="View posts tagged with &quot;ruby&quot;">
+					ruby
+				</a>
+			
+		</div>
+		<h4>
+		Coding . <a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/#disqus_thread" data-disqus-identifier="/coding/2014/07/21/my-new-blog/">Comments</a>
+		</h4>	
+	</div>
+</div>
+<ul class="pager">
+	<li>
+	<a href="" title="Previous Post: ">
+	<span class="glyphicon glyphicon-chevron-left"></span>
+	Something Old
+	</a>
+	</li>
+
+	<li>July 21, 2014</li>
+	<li>
+	<a href="/photography/2014/07/23/photographing-rabbits/" title="Next Post: Photographing Rabbits">
+	<span class="glyphicon glyphicon-chevron-right"></span>
+	Something New
+	</a>
+	</li>
+</ul>
+    <p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+		
+</div>
+
+<div class="content">	
+	<h2>Comments Section</h2>
+	<p>Feel free to comment on the post but keep it clean and on topic.</p>	
+<div class="well">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'rjkerrison'; // required: replace example with your forum shortname
+		var disqus_identifier = '/coding/2014/07/21/my-new-blog/';
+		var disqus_url = 'http://rjkerrison.github.com/coding/2014/07/21/my-new-blog/';
+		
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+</div>
+		</div>
+		<div class="col-md-4 text-justify">
+		<!-- Tag Widget -->
+<div class="panel panel-primary">
+	<div class="panel-heading">
+	<h4>Tag Cloud</h4>
+	</div>
+	<ul class="list-group">
+	<li class="list-group-item">
+		<a style='font-size: 70%' href='/tags/photography'>photography</a>
+<a style='font-size: 170%' href='/tags/media'>media</a>
+<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
+<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
+<a style='font-size: 170%' href='/tags/blog'>blog</a>
+<a style='font-size: 70%' href='/tags/github'>github</a>
+
+	</li>
+	</ul>
+</div>
+<!-- Tag Widget -->
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4>Recent Posts</h4>
+</div>
+<ul class="list-group">
+    
+    <li class="list-group-item">
+		23 Jul 2014 &raquo;
+		<a href="http://rjkerrison.co.uk/photography/2014/07/23/photographing-rabbits/">Photographing Rabbits</a>
+		<div class="well">
+			<p>
+				I've taken to wildlife photography. It's said that one should never work with animals.
+			</p>
+			<p class="text-right">
+				<a href="/photography/2014/07/23/photographing-rabbits/">Read more&hellip;</a>
+			</p>
+		</div>
+	</li>
+    
+    <li class="list-group-item">
+		21 Jul 2014 &raquo;
+		<a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/">How I built my blog in one day</a>
+		<div class="well">
+			<p>
+				My new blog.
+			</p>
+			<p class="text-right">
+				<a href="/coding/2014/07/21/my-new-blog/">Read more&hellip;</a>
+			</p>
+		</div>
+	</li>
+    
+</ul>
+</div>
+		</div>
+</div>
+
+<footer>
+    <div class="container">
+        <hr />
+        <p class="text-center">Copyright © Robin James Kerrison 2014. All rights reserved.</p>
+    </div>
+</footer>
+<script src="jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Disqus Script -->
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = 'rjkerrison'; // required: replace example with your forum shortname
+	var disqus_identifier = '/coding/2014/07/21/my-new-blog/';
+	var disqus_url = 'http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/';
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function () {
+		var s = document.createElement('script'); s.async = true;
+		s.type = 'text/javascript';
+		s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	}());
+</script>
+</body>
+</html>
