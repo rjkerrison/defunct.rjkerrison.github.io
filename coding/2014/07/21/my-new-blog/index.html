@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>How I built my blog in one day</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="A Bootstrap Blog Template">
+	<meta name="description" content="My Blog">
 	<meta name="author" content="Robin James Kerrison">
 
 	<!-- Google Fonts -->
@@ -16,8 +16,12 @@
 	<!-- custom bootstrap
 		<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
 	-->
-	<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
-
+	<link href="/bootstrap.min.css" rel="stylesheet" />
+	<link href="/storm.css" rel="stylesheet" />
+	<!-- online storm.css
+		<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
+	-->
+	
 </head>
 
 <body>
@@ -54,7 +58,18 @@
 		<div class="col-md-8 text-justify">
 		<div class="content">    
 	<div class="row">
-	<div class="btn-group">
+	<h1><!--class="col-md-8 col-sm-12"-->How I built my blog in one day
+	<small><!--class="col-md-4 col-sm-12"-->
+	<span class="glyphicon glyphicon-calendar"></span>
+		
+		21st
+			
+		July
+		2014
+	</small>
+	</h1>
+</div>
+<div class="btn-group">
 		
 			<a class="btn btn-primary" href="http://rjkerrison.co.uk/tags/blog"
 				title="View posts tagged with &quot;blog&quot;">
@@ -82,23 +97,29 @@
 			</a>
 		
 	</div>
-	<h1>How I built my blog in one day</h1>
-</div>
-<ul class="pager">
-	<li class="previous">
+<ul class="pager row">
+	<div class="col-md-4 col-sm-12 col-md-push-4">
+		<span class="glyphicon glyphicon-calendar"></span>
+		
+		21st
+			
+		July
+		2014
+	</div>
+	<li class="previous col-md-4 col-md-pull-4 col-sm-6">
 	<a href="" title="Previous Post: ">
 	<span class="glyphicon glyphicon-chevron-left"></span>
 	Something Old
 	</a>
 	</li>
-	<li>July 21, 2014</li>
-	<li class="next">
+	<li class="next col-md-4 col-sm-6">
 	<a href="/photography/2014/07/23/photographing-rabbits/" title="Next Post: Photographing Rabbits">
 	<span class="glyphicon glyphicon-chevron-right"></span>
 	Something New
 	</a>
 	</li>
 </ul>
+
     <p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
 
 <p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
@@ -161,12 +182,12 @@
 	</div>
 	<ul class="list-group">
 	<li class="list-group-item">
-		<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
-<a style='font-size: 70%' href='/tags/photography'>photography</a>
-<a style='font-size: 170%' href='/tags/blog'>blog</a>
+		<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
 <a style='font-size: 70%' href='/tags/github'>github</a>
+<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
 <a style='font-size: 170%' href='/tags/media'>media</a>
-<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
+<a style='font-size: 170%' href='/tags/blog'>blog</a>
+<a style='font-size: 70%' href='/tags/photography'>photography</a>
 
 	</li>
 	</ul>
