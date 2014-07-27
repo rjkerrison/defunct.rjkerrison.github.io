@@ -4,7 +4,7 @@
  <title>Robin James Kerrison</title>
  <link href="http://rjkerrison.github.com/atom.xml" rel="self"/>
  <link href="http://rjkerrison.github.com/"/>
- <updated>2014-07-27T13:02:39+01:00</updated>
+ <updated>2014-07-27T18:48:54+01:00</updated>
  <id>http://rjkerrison.github.com</id>
  <author>
    <name>Robin James Kerrison</name>
@@ -13,18 +13,18 @@
  
  <entry>
    <title>Photographing Rabbits</title>
-   <link href="http://rjkerrison.github.com/photography/2014/07/23/photographing-rabbits/"/>
+   <link href="http://rjkerrison.github.com/2014/07/23/photographing-rabbits/"/>
    <updated>2014-07-23T00:00:00+01:00</updated>
-   <id>http://rjkerrison.github.com/photography/2014/07/23/photographing-rabbits</id>
+   <id>http://rjkerrison.github.com/2014/07/23/photographing-rabbits</id>
    <content type="html">&lt;p&gt;I really love photography. It&#39;s an easily accessible art form &amp;ndash; I can&#39;t draw, don&#39;t sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>How I built my blog in one day</title>
-   <link href="http://rjkerrison.github.com/coding/2014/07/21/my-new-blog/"/>
+   <link href="http://rjkerrison.github.com/2014/07/21/my-new-blog/"/>
    <updated>2014-07-21T00:00:00+01:00</updated>
-   <id>http://rjkerrison.github.com/coding/2014/07/21/my-new-blog</id>
+   <id>http://rjkerrison.github.com/2014/07/21/my-new-blog</id>
    <content type="html">&lt;p&gt;I&#39;ve been meaning to start up a blog for ages. I&#39;ve previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I&#39;d be able to find a better way: this is it.&lt;/p&gt;
 
 &lt;p&gt;This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that&#39;s ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.&lt;/p&gt;
