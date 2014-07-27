@@ -10,18 +10,20 @@
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<!-- Bootstrap CSS file -->
+	<!-- Bootstrap CSS file ->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<!-- custom bootstrap
+	<!-- custom bootstrap -->
 		<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
-	-->
+		<link href="http://rjkerrison.co.uk/text-align.css" rel="stylesheet" />
+	<!-- end custom-->
 	<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
 </head>
 
 <body>
 <!-- Jquery and Bootstrap Script files -->
-<header class="navbar navbar-default navbar-static-top">         
+<header class="navbar navbar-default navbar-fixed-top bs-docs-nav" role="banner">         
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -61,26 +63,42 @@
 		</div>
 		<div class="col-md-4 text-justify">
 		<!-- Recent Posts Widget -->
-<div class="panel">
+<div class="panel panel-info">
 <div class="panel-heading">
 <h4>Recent Posts</h4>
 </div>
 <ul class="list-group">
     
-    <li class="list-group-item">
-		<div class="well">
-			I've taken to wildlife photography. It's said that one should never work with animals.
-		</div>
-		23 Jul 2014 &raquo;
-		<a href="http://rjkerrison.co.uk/photography/2014/07/23/photographing-rabbits/">Photographing Rabbits</a>
+    <li class="list-group-item btn btn-block btn-primary">
+		<a href="http://rjkerrison.co.uk/photography/2014/07/23/photographing-rabbits/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
+			<div class="col-md-7 col-sm-12">
+			<p>Photographing Rabbits</p>
+			</div>
+			<div class="col-md-5 col-sm-12"><p>
+			<span class="glyphicon glyphicon-calendar"></span>
+			
+			23rd
+				
+			July
+			2014
+			</p></div>
+		</a>
 	</li>
     
-    <li class="list-group-item">
-		<div class="well">
-			My new blog.
-		</div>
-		21 Jul 2014 &raquo;
-		<a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/">How I built my blog in one day</a>
+    <li class="list-group-item btn btn-block btn-primary">
+		<a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
+			<div class="col-md-7 col-sm-12">
+			<p>How I built my blog in one day</p>
+			</div>
+			<div class="col-md-5 col-sm-12"><p>
+			<span class="glyphicon glyphicon-calendar"></span>
+			
+			21st
+				
+			July
+			2014
+			</p></div>
+		</a>
 	</li>
     
 </ul>
@@ -92,12 +110,12 @@
 	</div>
 	<ul class="list-group">
 	<li class="list-group-item">
-		<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
-<a style='font-size: 70%' href='/tags/photography'>photography</a>
-<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
-<a style='font-size: 70%' href='/tags/github'>github</a>
+		<a style='font-size: 70%' href='/tags/photography'>photography</a>
 <a style='font-size: 170%' href='/tags/media'>media</a>
+<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
 <a style='font-size: 170%' href='/tags/blog'>blog</a>
+<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
+<a style='font-size: 70%' href='/tags/github'>github</a>
 
 	</li>
 	</ul>
