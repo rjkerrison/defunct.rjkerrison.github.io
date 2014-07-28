@@ -12,18 +12,10 @@ footer {
 a:hover {
 text-decoration: none;
 }
-.carousel-control {
-top: 300px;
-}
-
-.carousel-inner{
-  width:100%;
-  min-height: 200px !important;
-}
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 400px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -33,7 +25,7 @@ top: 300px;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 400px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
