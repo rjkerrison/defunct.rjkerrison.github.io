@@ -60,6 +60,7 @@
 		
         <li data-target="#myCarousel" data-slide-to="2"></li>
 		
+		<li data-target="#myCarousel" id="pauseButton">Pause</li>
       </ol>
       <div class="carousel-inner">
 	   <div class="item active" style="background:url(http://placehold.it/1920x450)">
@@ -146,7 +147,7 @@
 <script type="text/javascript">
 $(function () {
     $('#myCarousel').carousel({
-        interval:1000,
+        interval:2000,
         pause: "false"
     });
     $('#playButton').click(function () {
