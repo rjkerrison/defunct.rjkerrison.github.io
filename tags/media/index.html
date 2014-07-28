@@ -4,21 +4,26 @@
 	<meta charset="utf-8">
 	<title>Posts Tagged &ldquo;media&rdquo;</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="A Bootstrap Blog Template">
+	<meta name="description" content="My Blog">
 	<meta name="author" content="Robin James Kerrison">
 
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<!-- Bootstrap CSS file -->
-	<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
+	<!-- Bootstrap CSS file ->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!-- custom bootstrap -->
+		<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
+		<link href="http://rjkerrison.co.uk/text-align.css" rel="stylesheet" />
+	<!-- end custom-->
 	<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
-
 </head>
 
 <body>
 <!-- Jquery and Bootstrap Script files -->
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">         
+<header class="navbar navbar-default navbar-static-top bs-docs-nav" role="banner">         
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -32,7 +37,7 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">  
             <ul class="nav navbar-nav">
                 <li><a href="http://rjkerrison.co.uk">Home</a></li>
-                <li><a href="http://rjkerrison.co.uk/contact">Contact</a></li>
+                <li><a href="http://rjkerrison.co.uk/blog">Blog</a></li>
                 <li><a href="http://rjkerrison.co.uk/about">About</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
@@ -58,8 +63,8 @@
   
   
   <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='2014-07-23'>07/23/14</time> <a class="archive_list_article_link" href='/photography/2014/07/23/photographing-rabbits/'>Photographing Rabbits</a>
-    <p class="summary">I've taken to wildlife photography. It's said that one should never work with animals.
+    <time style="color:#666;font-size:11px;" datetime='2014-07-23'>07/23/14</time> <a class="archive_list_article_link" href='/blog/2014/07/23/photographing-rabbits/'>Photographing Rabbits</a>
+    <p class="summary">I've taken to wildlife photography. It's said that one should never work with animals. I rather enjoy it.
     <ul class="tag_list">
       
       <li class="inline archive_list"><a class="tag_list_link" href="/tag/blog">blog</a></li>
@@ -82,7 +87,7 @@
   
   
   <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='2014-07-21'>07/21/14</time> <a class="archive_list_article_link" href='/coding/2014/07/21/my-new-blog/'>How I built my blog in one day</a>
+    <time style="color:#666;font-size:11px;" datetime='2014-07-21'>07/21/14</time> <a class="archive_list_article_link" href='/blog/2014/07/21/my-new-blog/'>How I built my blog in one day</a>
     <p class="summary">My new blog.
     <ul class="tag_list">
       
@@ -106,57 +111,99 @@
 </ul>
 		</div>
 		<div class="col-md-4 text-justify">
-		<!-- Tag Widget -->
-<div class="panel panel-primary">
-	<div class="panel-heading">
-	<h4>Tag Cloud</h4>
-	</div>
-	<ul class="list-group">
-	<li class="list-group-item">
-		<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
-<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
-<a style='font-size: 170%' href='/tags/blog'>blog</a>
-<a style='font-size: 170%' href='/tags/media'>media</a>
-<a style='font-size: 70%' href='/tags/photography'>photography</a>
-<a style='font-size: 70%' href='/tags/github'>github</a>
-
-	</li>
-	</ul>
-</div>
-<!-- Tag Widget -->
-<div class="panel panel-primary">
+		<!-- Recent Posts Widget -->
+<div class="panel panel-info">
 <div class="panel-heading">
 <h4>Recent Posts</h4>
 </div>
 <ul class="list-group">
     
-    <li class="list-group-item">
-		23 Jul 2014 &raquo;
-		<a href="http://rjkerrison.co.uk/photography/2014/07/23/photographing-rabbits/">Photographing Rabbits</a>
-		<div class="well">
-			<p>
-				I've taken to wildlife photography. It's said that one should never work with animals.
-			</p>
-			<p class="text-right">
-				<a href="/photography/2014/07/23/photographing-rabbits/">Read more&hellip;</a>
-			</p>
-		</div>
+    <li class="list-group-item btn btn-block btn-primary">
+		<a href="http://rjkerrison.co.uk/blog/2014/07/23/photographing-rabbits/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
+			<div class="col-md-7 col-sm-12">
+			<p>Photographing Rabbits</p>
+			</div>
+			<div class="col-md-5 col-sm-12"><p>
+			<span class="glyphicon glyphicon-calendar"></span>
+			
+			23rd
+				
+			July
+			2014
+			</p></div>
+		</a>
 	</li>
     
-    <li class="list-group-item">
-		21 Jul 2014 &raquo;
-		<a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/">How I built my blog in one day</a>
-		<div class="well">
-			<p>
-				My new blog.
-			</p>
-			<p class="text-right">
-				<a href="/coding/2014/07/21/my-new-blog/">Read more&hellip;</a>
-			</p>
-		</div>
+    <li class="list-group-item btn btn-block btn-primary">
+		<a href="http://rjkerrison.co.uk/blog/2014/07/21/my-new-blog/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
+			<div class="col-md-7 col-sm-12">
+			<p>How I built my blog in one day</p>
+			</div>
+			<div class="col-md-5 col-sm-12"><p>
+			<span class="glyphicon glyphicon-calendar"></span>
+			
+			21st
+				
+			July
+			2014
+			</p></div>
+		</a>
 	</li>
     
 </ul>
+</div>
+<!-- Tag Widget -->
+<div class="panel">
+	<div class="panel-heading">
+	<h4>Tag Cloud</h4>
+	</div>
+	<div class="panel-body">
+	<ul class="list-group">
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/blog<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
+<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+">
+			blog: 2 posts
+		</a></li>
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/jekyll<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+">
+			jekyll: 1 posts
+		</a></li>
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/github<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+">
+			github: 1 posts
+		</a></li>
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/media<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
+<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+">
+			media: 2 posts
+		</a></li>
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/ruby<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
+
+<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
+">
+			ruby: 1 posts
+		</a></li>
+	
+		<li class="list-group-item"><a href="http://rjkerrison.co.uk/photography<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
+">
+			photography: 1 posts
+		</a></li>
+	
+	</ul>
+	</div>
 </div>
 		</div>
 </div>
@@ -167,14 +214,14 @@
         <p class="text-center">Copyright © Robin James Kerrison 2014. All rights reserved.</p>
     </div>
 </footer>
-<script src="jquery-2.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <!-- Disqus Script -->
 <script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 	var disqus_shortname = 'rjkerrison'; // required: replace example with your forum shortname
-	var disqus_identifier = '/tags/media/';
-	var disqus_url = 'http://rjkerrison.co.uk/tags/media/';
+	var disqus_identifier = '/tags/media/index.html';
+	var disqus_url = 'http://rjkerrison.co.uk/tags/media/index.html';
 
 	/* * * DON'T EDIT BELOW THIS LINE * * */
 	(function () {
