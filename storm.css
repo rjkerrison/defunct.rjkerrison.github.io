@@ -1,6 +1,6 @@
-#body {
+/* #body {
 margin-top: 75px;
-}
+}*/
 @media (min-width: 768px) { /* tablets and up */ 
     .group2 {
         text-align: right;
@@ -14,4 +14,9 @@ text-decoration: none;
 }
 .carousel-control {
 top: 300px;
+}
+
+.carousel-inner{
+  width:100%;
+  min-height: 200px !important;
 }
