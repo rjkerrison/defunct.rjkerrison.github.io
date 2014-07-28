@@ -78,7 +78,7 @@
             <div class="carousel-caption">
               <h1>Photographing Rabbits</h1>
               <p>I've taken to wildlife photography. It's said that one should never work with animals. I rather enjoy it.</p>
-              <p><a class="btn btn-lg btn-primary" href="/2014/07/23/photographing-rabbits/" role="button">Read more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/blog/2014/07/23/photographing-rabbits/" role="button">Read more</a></p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
             <div class="carousel-caption">
               <h1>How I built my blog in one day</h1>
               <p>My new blog.</p>
-              <p><a class="btn btn-lg btn-primary" href="/2014/07/21/my-new-blog/" role="button">Read more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/blog/2014/07/21/my-new-blog/" role="button">Read more</a></p>
             </div>
           </div>
         </div>
@@ -97,24 +97,24 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-	  <!--Carousel controls -->
-		<button id="playButton">Play</button>
-		<button id="pauseButton">Pause</button>
     </div>
 <!-- /.carousel -->
 
 <div id="body" class="container"> 
-		<div class="row">
+		<div class="row text-center">
 	<div class="col-md-4">
 		<img src="//placehold.it/200x200" alt="Generic placeholder">
+		<h2>Who's this Robin guy?</h2>
 		I'm a dude. Got 99 problems but the beach ain't one.
 	</div>
 	<div class="col-md-4">
 		<img src="//placehold.it/200x200" alt="Generic placeholder">
+		<h2>My Blog</h2>
 		I've got a blog. It's a very nice blog. Do you have a blog?
 	</div>
 	<div class="col-md-4">
 		<img src="//placehold.it/200x200" alt="Generic placeholder">
+		<h2>Photography Skills</h2>
 		I do a lot of photography. To book me for your event, why not do that <em>right now</em>?
 	</div>
 </div>
@@ -146,14 +146,14 @@
 <script type="text/javascript">
 $(function () {
     $('#myCarousel').carousel({
-        interval:2000,
+        interval:1000,
         pause: "false"
     });
     $('#playButton').click(function () {
-        $('#homeCarousel').carousel('cycle');
+        $('#myCarousel').carousel('cycle');
     });
     $('#pauseButton').click(function () {
-        $('#homeCarousel').carousel('pause');
+        $('#myCarousel').carousel('pause');
     });
 });
 </script>

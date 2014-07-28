@@ -4,26 +4,21 @@
 	<meta charset="utf-8">
 	<title>Posts Tagged &ldquo;media&rdquo;</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="My Blog">
+	<meta name="description" content="A Bootstrap Blog Template">
 	<meta name="author" content="Robin James Kerrison">
 
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-	<!-- Bootstrap CSS file ->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<!-- -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-	<!-- custom bootstrap -->
-		<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
-		<link href="http://rjkerrison.co.uk/text-align.css" rel="stylesheet" />
-	<!-- end custom-->
+	<!-- Bootstrap CSS file -->
+	<link href="http://rjkerrison.co.uk/bootstrap-custom/less/custom.bootstrap.css" rel="stylesheet" />
 	<link href="http://rjkerrison.co.uk/storm.css" rel="stylesheet" />
+
 </head>
 
 <body>
 <!-- Jquery and Bootstrap Script files -->
-<header class="navbar navbar-default navbar-static-top bs-docs-nav" role="banner">         
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">         
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -37,7 +32,7 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">  
             <ul class="nav navbar-nav">
                 <li><a href="http://rjkerrison.co.uk">Home</a></li>
-                <li><a href="http://rjkerrison.co.uk/blog">Blog</a></li>
+                <li><a href="http://rjkerrison.co.uk/contact">Contact</a></li>
                 <li><a href="http://rjkerrison.co.uk/about">About</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
@@ -49,59 +44,6 @@
         </nav>
     </div>
 </header>
-<!-- Carousel
-	================================================= -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" class="active" data-slide-to="0"></li>
-		
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-		
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-		
-      </ol>
-      <div class="carousel-inner">
-	   <div class="item active" style="background:url(http://placehold.it/1920x450)">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Robin James Kerrison</h1>
-              <p>Woof woof. I'm a blog.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-	  
-        <div class="item"
-			style="background:url( '/media/rabbit.jpg' ); background-repeat: no-repeat; background-position: center bottom;">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Photographing Rabbits</h1>
-              <p>I've taken to wildlife photography. It's said that one should never work with animals. I rather enjoy it.</p>
-              <p><a class="btn btn-lg btn-primary" href="/2014/07/23/photographing-rabbits/" role="button">Read more</a></p>
-            </div>
-          </div>
-        </div>
-	   
-        <div class="item"
-			style="background:url( '//placehold.it/1920x450' ); background-repeat: no-repeat; background-position: center bottom;">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>How I built my blog in one day</h1>
-              <p>My new blog.</p>
-              <p><a class="btn btn-lg btn-primary" href="/2014/07/21/my-new-blog/" role="button">Read more</a></p>
-            </div>
-          </div>
-        </div>
-	   
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-	  <!--Carousel controls -->
-		<button id="playButton">Play</button>
-		<button id="pauseButton">Pause</button>
-    </div>
-<!-- /.carousel -->
 
 <div id="body" class="container"> 
 	<div class="row">
@@ -116,8 +58,8 @@
   
   
   <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='2014-07-23'>07/23/14</time> <a class="archive_list_article_link" href='/2014/07/23/photographing-rabbits/'>Photographing Rabbits</a>
-    <p class="summary">I've taken to wildlife photography. It's said that one should never work with animals. I rather enjoy it.
+    <time style="color:#666;font-size:11px;" datetime='2014-07-23'>07/23/14</time> <a class="archive_list_article_link" href='/photography/2014/07/23/photographing-rabbits/'>Photographing Rabbits</a>
+    <p class="summary">I've taken to wildlife photography. It's said that one should never work with animals.
     <ul class="tag_list">
       
       <li class="inline archive_list"><a class="tag_list_link" href="/tag/blog">blog</a></li>
@@ -140,7 +82,7 @@
   
   
   <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='2014-07-21'>07/21/14</time> <a class="archive_list_article_link" href='/2014/07/21/my-new-blog/'>How I built my blog in one day</a>
+    <time style="color:#666;font-size:11px;" datetime='2014-07-21'>07/21/14</time> <a class="archive_list_article_link" href='/coding/2014/07/21/my-new-blog/'>How I built my blog in one day</a>
     <p class="summary">My new blog.
     <ul class="tag_list">
       
@@ -164,115 +106,57 @@
 </ul>
 		</div>
 		<div class="col-md-4 text-justify">
-		<!-- Recent Posts Widget -->
-<div class="panel panel-info">
+		<!-- Tag Widget -->
+<div class="panel panel-primary">
+	<div class="panel-heading">
+	<h4>Tag Cloud</h4>
+	</div>
+	<ul class="list-group">
+	<li class="list-group-item">
+		<a style='font-size: 70%' href='/tags/jekyll'>jekyll</a>
+<a style='font-size: 70%' href='/tags/ruby'>ruby</a>
+<a style='font-size: 170%' href='/tags/blog'>blog</a>
+<a style='font-size: 170%' href='/tags/media'>media</a>
+<a style='font-size: 70%' href='/tags/photography'>photography</a>
+<a style='font-size: 70%' href='/tags/github'>github</a>
+
+	</li>
+	</ul>
+</div>
+<!-- Tag Widget -->
+<div class="panel panel-primary">
 <div class="panel-heading">
 <h4>Recent Posts</h4>
 </div>
 <ul class="list-group">
     
-    <li class="list-group-item btn btn-block btn-primary">
-		<a href="http://rjkerrison.co.uk/2014/07/23/photographing-rabbits/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
-			<div class="col-md-7 col-sm-12">
-			<p>Photographing Rabbits</p>
-			</div>
-			<div class="col-md-5 col-sm-12"><p>
-			<span class="glyphicon glyphicon-calendar"></span>
-			
-			23rd
-				
-			July
-			2014
-			</p></div>
-		</a>
+    <li class="list-group-item">
+		23 Jul 2014 &raquo;
+		<a href="http://rjkerrison.co.uk/photography/2014/07/23/photographing-rabbits/">Photographing Rabbits</a>
+		<div class="well">
+			<p>
+				I've taken to wildlife photography. It's said that one should never work with animals.
+			</p>
+			<p class="text-right">
+				<a href="/photography/2014/07/23/photographing-rabbits/">Read more&hellip;</a>
+			</p>
+		</div>
 	</li>
     
-    <li class="list-group-item btn btn-block btn-primary">
-		<a href="http://rjkerrison.co.uk/2014/07/21/my-new-blog/" class="row" style="margin-bottom:4px;white-space: normal;text-decoration:none;">
-			<div class="col-md-7 col-sm-12">
-			<p>How I built my blog in one day</p>
-			</div>
-			<div class="col-md-5 col-sm-12"><p>
-			<span class="glyphicon glyphicon-calendar"></span>
-			
-			21st
-				
-			July
-			2014
-			</p></div>
-		</a>
+    <li class="list-group-item">
+		21 Jul 2014 &raquo;
+		<a href="http://rjkerrison.co.uk/coding/2014/07/21/my-new-blog/">How I built my blog in one day</a>
+		<div class="well">
+			<p>
+				My new blog.
+			</p>
+			<p class="text-right">
+				<a href="/coding/2014/07/21/my-new-blog/">Read more&hellip;</a>
+			</p>
+		</div>
 	</li>
     
 </ul>
-</div>
-<!-- Tag Widget -->
-<div class="panel">
-	<div class="panel-heading">
-	<h4>Tag Cloud</h4>
-	</div>
-	<div class="panel-body">
-	
-		<a href="http://rjkerrison.co.uk/blog<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-">
-			blog<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-: 2 posts
-		</a>
-	
-		<a href="http://rjkerrison.co.uk/jekyll<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-">
-			jekyll<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-: 1 posts
-		</a>
-	
-		<a href="http://rjkerrison.co.uk/github<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-">
-			github<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-: 1 posts
-		</a>
-	
-		<a href="http://rjkerrison.co.uk/media<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-">
-			media<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-: 2 posts
-		</a>
-	
-		<a href="http://rjkerrison.co.uk/ruby<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-">
-			ruby<p>I've been meaning to start up a blog for ages. I've previously used the usual services like Wordpress and Blogspot, but find them both largely cumbersome in their management and difficult to customise. They also restrict the freedom of content. I knew I'd be able to find a better way: this is it.</p>
-
-<p>This site is hosted on GitHub Pages, which makes it wonderfully free. The drawback is that my code is visible to anyone who wants to see it, but that's ultimately not a problem with a static blog. There are no passwords, no databases, no custom functions aside from a little bit of Ruby. I also stole a lot of my code from other GitHub Pages in the first place, so having all my code easily accessible to anyone else who wants to pinch it sounds pretty fair to me.</p>
-: 1 posts
-		</a>
-	
-		<a href="http://rjkerrison.co.uk/photography<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-">
-			photography<p>I really love photography. It's an easily accessible art form &ndash; I can't draw, don't sing well enough to do so outside a shower nor is my piano up to scratch, but I can take a photograph.</p>
-: 1 posts
-		</a>
-	
-	</div>
 </div>
 		</div>
 </div>
@@ -283,14 +167,14 @@
         <p class="text-center">Copyright © Robin James Kerrison 2014. All rights reserved.</p>
     </div>
 </footer>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!-- Disqus Script -->
 <script type="text/javascript">
 	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 	var disqus_shortname = 'rjkerrison'; // required: replace example with your forum shortname
-	var disqus_identifier = '/tags/media/index.html';
-	var disqus_url = 'http://rjkerrison.co.uk/tags/media/index.html';
+	var disqus_identifier = '/tags/media/';
+	var disqus_url = 'http://rjkerrison.co.uk/tags/media/';
 
 	/* * * DON'T EDIT BELOW THIS LINE * * */
 	(function () {
@@ -299,20 +183,6 @@
 		s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 	}());
-</script>
-<script type="text/javascript">
-$(function () {
-    $('#myCarousel').carousel({
-        interval:2000,
-        pause: "false"
-    });
-    $('#playButton').click(function () {
-        $('#homeCarousel').carousel('cycle');
-    });
-    $('#pauseButton').click(function () {
-        $('#homeCarousel').carousel('pause');
-    });
-});
 </script>
 </body>
 </html>
